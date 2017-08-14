@@ -1,11 +1,11 @@
 # Adding images to your webpage
 
-## How to add images to your webpage using the <img> tag
+## How to add images to your webpage using the `<img>` tag
 
 ### Learning Objectives
 Students will be able to:
 1. Identify and define the meaning of each element in the HTML image tag syntax.
-2. Utilize the HTML image tag (<img>) using the correct syntax.
+2. Utilize the HTML image tag `<img>` using the correct syntax.
 3. Manipulate style attributes in CSS as an alternative to inline HTML.
 
 ### Key Points
@@ -13,7 +13,7 @@ Students will be able to:
 2.	Common HTML attributes included in <img> tags include src, alt, width and height.
 3.	Manipulating style attributes in CSS as an alternative to inline HTML.
 
-## Content
+## CONTENT
 Have you ever visited a website and were stunned at the graphic imagery they used to set the tone of their webpage? Have you ever wondered how they were able to display these images on website? In this lesson, you will learn about how to add images to a webpage! 
 
 By now you’ve learned a number of different HTML tags to add elements to a webpage.  We will add one more tag to your repertoire, the HTML image tag. In this lesson, you will learn about the syntax and various attributes of the image tag and practice using them.
@@ -35,14 +35,14 @@ Example of the image tag using an image within the same folder as the index file
 `<img src="/images/example.gif" >`
 Example of the image tag using an image with a sub-folder file titled “images”.
 
-The image tag is defined with the <img> tag. Within the tag you can first find “img” which signifies that it is an image tag, and an “src” attribute, which defines the location of the image. The src attribute can be a url, or the pathway to a location on your computer. If the image is within the same folder as the index file for your webpage, you don’t need to specify an absolute path to where the image is stored, only the filename for the image is required in the src quotations. However, it is common to store images in a separate sub-folder, in which case specify the location with the sub-folder name and then the image filename.
+The image tag is defined with the `<img>` tag. Within the tag you can first find “img” which signifies that it is an image tag, and an “src” attribute, which defines the location of the image. The src attribute can be a url, or the pathway to a location on your computer. If the image is within the same folder as the index file for your webpage, you don’t need to specify an absolute path to where the image is stored, only the filename for the image is required in the src quotations. However, it is common to store images in a separate sub-folder, in which case specify the location with the sub-folder name and then the image filename.
 
-Do you notice something strange about the <img> tag? Unlike many other tags you’ve learned thus far, the image tag does not have a closing tag. The img and src are the two elements of an image tag that are critical in order to display an image. These are the very bare minimum. Most programmers incorporate a number of other attributes within the tag for greater accuracy. We will learn about these next.
+Do you notice something strange about the `<img>` tag? Unlike many other tags you’ve learned thus far, the image tag does not have a closing tag. The img and src are the two elements of an image tag that are critical in order to display an image. These are the very bare minimum. Most programmers incorporate a number of other attributes within the tag for greater accuracy. We will learn about these next.
 
 ###### **CHECK FOR UNDERSTANDING:** 
 Which of the following image tags is correct?
 1.	`<image src=”http://static-assets.generalassemb.ly/logos/generalassembly-open-graph.png” />`
-	*	Feedback: Incorrect. Use of <img> is the proper image tag.
+	*	Feedback: Incorrect. Use of `<img>` is the proper image tag.
 2.	`<img src=http://static-assets.generalassemb.ly/logos/generalassembly-open-graph.png >`
 	*	Feedback: Incorrect. The image url should be between quotation marks.
 3.	`<img src=”http://static-assets.generalassemb.ly/logos/generalassembly-open-graph.png” ></img>`
@@ -55,11 +55,11 @@ Which of the following image tags is correct?
 ### Adding Attributes
 #### The alt attribute
 `<img src="http://bit.ly/2vxg0PD" alt="HTML & CSS Icons" >`
-Example of alt attribute within the <img> tag.
+Example of alt attribute within the `<img>` tag.
 
 The alt attribute signifies alternative text that will appear if the image cannot be displayed. It also allows the alt text to display near the mouse cursor when hovering over the image. You might wonder, why wouldn’t my image be displayed? There are a number of reasons for why an image might not display, and it might not have anything to do with the code you’ve written. Sometimes a user’s slow connection, browser preference for not displaying images, or use of a screen reader inhibit them from viewing the image. However, they are still end users and as a designer, wouldn’t you want your users to know what the image was of, even if they aren’t able to view it? Providing alternative text is a good practice and shows that you put thought into your audience. 
 
-You may also run into unforeseen issues if you got your image from an online source and reference it in the <img> tag using a link. When you find an image online, you don’t have control over whether your source takes the image down or moves it elsewhere. Both instances result in the link to the image to break and not longer work on your page. This can be avoided by saving images locally or on an online repository where you are in complete control of the status of your images.
+You may also run into unforeseen issues if you got your image from an online source and reference it in the `<img>` tag using a link. When you find an image online, you don’t have control over whether your source takes the image down or moves it elsewhere. Both instances result in the link to the image to break and not longer work on your page. This can be avoided by saving images locally or on an online repository where you are in complete control of the status of your images.
 
 #### Sizing images with attributes
 **HTML**
