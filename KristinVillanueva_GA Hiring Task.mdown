@@ -82,14 +82,14 @@ One way is to add the width and height attributes to the HTML tag to define the 
 
 ##### **CHECK FOR UNDERSTANDING:** 
 Which of the following TRUE about image tags?
-a.	Using 3rd party images found online is a foolproof way to ensure your links will not break.
-a.	Incorrect. You have no power over the wellbeing of the photo.
-b.	“src” “alt” and “style” attributes are all required in order for your image to display.
-a.	Incorrect. Though alt and style attributes are important but not required for the image to display.
-c.	Sizing your image can be accomplished in a number of different ways depending on your preference.
-a.	Correct. You can use the width, height or style HTML attributes or a CSS stylesheet to size your image.
-d.	Alternative text is not as important as making sure your image is sized appropriately. 
-a.	Incorrect. Both attributes are important for the accuracy of your image tag.
+1.	Using 3rd party images found online is a foolproof way to ensure your links will not break.
+	*	Incorrect. You have no power over the wellbeing of the photo.
+2.	“src” “alt” and “style” attributes are all required in order for your image to display.
+	*	Incorrect. Though alt and style attributes are important but not required for the image to display.
+3.	Sizing your image can be accomplished in a number of different ways depending on your preference.
+	*	Correct. You can use the width, height or style HTML attributes or a CSS stylesheet to size your image.
+4.	Alternative text is not as important as making sure your image is sized appropriately. 
+	*	Incorrect. Both attributes are important for the accuracy of your image tag.
 
 Match the image tag elements with the correct description.
 1.	img
@@ -98,13 +98,49 @@ Match the image tag elements with the correct description.
 4.	style
  
 Options
-a.	Signifies the composition or characteristics of an image
-b.	Signifies the location of the image
-c.	Signifies the text to be displayed if an image fails to display
-d.	Signifies an image will be inserted
+- a.	Signifies the composition or characteristics of an image
+- b.	Signifies the location of the image
+- c.	Signifies the text to be displayed if an image fails to display
+- d.	Signifies an image will be inserted
 
 Answer Key
 1.	d
 2.	b
 3.	c
 4.	a
+
+## HANDS ON PRACTICE: 
+In this activity, students will be using codepen to explore the image tag and it’s attributes. Follow the steps below and reflect on your observations.
+1.	Create an image tag to display the photo that can be found at this url: http://bit.ly/2vxg0PD
+2.	Create a second image tag to display the same photo, this time adding alternative text using the alt attribute. You should now see two identical images. Next, delete the colon in the image url. 
+	*	What do you notice? 
+	*	Why did this occur?
+3.	Create a third image tag displaying the photo again with alternative text. Use width and height attributes to change width to 200 pixels and the height to 100 pixels.
+4.	Create a fourth image tag displaying the photo again with alternative text. Use the style attribute to change the width to 200 pixels and the height to 100 pixels.
+	*	What similarities and differences do you notice about the third and fourth image tags you created?
+5.	Create a fifth image tag displaying the photo again with alternative text. This time add an id to this image (ex. id=”externaltext”). In the CSS column, use the id to signify the fifth image and change the width to 200 pixels and the height to 100 pixels.
+	*	What similarities and differences do you notice about the third, fourth, ad fifth image tags you created?
+6.	Delete all code in the CSS column so it is now blank. Now instead of calling the id from the HTML, this time signify all images by using img and changing the width to 400 pixels and the height to 200 pixels. (Ex. img {})
+	*	What do you notice? Which of the images changed size and which ones did not? Why did this occur?
+		-	Feedback: Remember, the style attribute prevents the size of the image from being altered by external style sheets.
+7.	Just for fun: Below your CSS img code, call the id you created previously to change the size back to a width of 200 and a height of 100 pixels.
+	*	What happened to the fifth image? Why do you think this occurred?
+		-	Feedback: You notice that the image reduced in size. This is because calling the id takes precedent over calling an img tag because it specifies a particular line of code.
+
+## INSTRUCTOR LED ACTIVITY
+The instructor will give all students an html and css file filled with code for a webpage. The HTML code will model proper html structure including proper doctype declaration, head, title, and body tags and closing as tags, and proper linking to CSS stylesheet. The code will include use of multiple image tags with varying attributes inline and using the external style sheet. 
+1.	Students will individually analyze the code and in their own words, describe what the webpage will look like. For each image, they will describe each attribute used and it’s implication on the image.  
+2.	Students discuss their predictions with a partner or group and together will sketch their predictions.
+3.	Instructor will facilitate class discussion one line of code at a time as groups share their predictions and the instructor will reveal what the page truly looks like. The instructor will probe asking students where their predictions fell short.
+
+## SUMMATIVE ACTIVITY
+In this activity students will build a webpage about their favorite television show. Their resulting webpage will fulfill the requirements listed below. Students will document the decisions they made in the creation of the webpage and rationale for the code they used.
+1.	Use of proper doctype declaration and page structure.
+2.	CSS style sheet correctly linked to index file.
+3.	Inclusion of 10 images using correct image tags.
+4.	Use of HTML alt attribute in all image tags.
+5.	Use of HTML width and height attributes to manipulate size of at least one image.
+6.	Use of HTML style attribute to manipulate size of at least one image.
+7.	Use of CSS to manipulate size of at least one image.
+8.	Supportive text displayed on the webpage to describe each photo.
+9.	Code is clean, error free, and properly formatted in the browser.
