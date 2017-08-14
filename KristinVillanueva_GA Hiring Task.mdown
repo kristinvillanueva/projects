@@ -22,16 +22,21 @@ By now you’ve learned a number of different HTML tags to add elements to a web
 #### Starting from the basics
 
 Examples of HTML image syntax:
+'''html
 <img src="url" >
+'''
 Image tag base template.
-
+'''html
 <img src="http://bit.ly/2vxg0PD" >
+'''
 Example of the image tag with image hosted online.
-
+'''html
 <img src="example.gif" >
+'''
 Example of the image tag using an image within the same folder as the index file.
-
+'''html
 <img src="/images/example.gif" >
+'''
 Example of the image tag using an image with a sub-folder file titled “images”.
 
 The image tag is defined with the <img> tag. Within the tag you can first find “img” which signifies that it is an image tag, and an “src” attribute, which defines the location of the image. The src attribute can be a url, or the pathway to a location on your computer. If the image is within the same folder as the index file for your webpage, you don’t need to specify an absolute path to where the image is stored, only the filename for the image is required in the src quotations. However, it is common to store images in a separate sub-folder, in which case specify the location with the sub-folder name and then the image filename.
