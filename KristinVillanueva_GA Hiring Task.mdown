@@ -66,6 +66,8 @@ The alt attribute signifies alternative text that will appear if the image canno
 
 You may also run into unforeseen issues if you got your image from an online source and reference it in the `<img>` tag using a link. When you find an image online, you don’t have control over whether your source takes the image down or moves it elsewhere. Both instances result in the link to the image to break and not longer work on your page. This can be avoided by saving images locally or on an online repository where you are in complete control of the status of your images.
 
+*Reference: https://www.w3schools.com/html/html_images.asp*
+
 #### Sizing images with attributes
 **HTML**
 <br>
@@ -137,7 +139,7 @@ In this activity, students will be using codepen to explore the image tag and it
 		-	Feedback: You notice that the image reduced in size. This is because calling the id takes precedent over calling an img tag because it specifies a particular line of code.
 
 ## Instructor-led Activity
-The instructor will give all students an html and css file filled with code for a webpage. The HTML code will model proper html structure including proper doctype declaration, head, title, and body tags and closing as tags, and proper linking to CSS stylesheet. The code will include use of multiple image tags with varying attributes inline and using the external style sheet. 
+The instructor will give all students a html and corresponding css file filled with code for a simple webpage. The HTML code will model proper html structure including proper doctype declaration, head, title, and body tags and closing as tags, and proper linking to CSS stylesheet. The code will include use of 4 image tags with varying attributes inline and using the external style sheet. 
 1.	Students will individually analyze the code and in their own words, describe what the webpage will look like. For each image, they will describe each attribute used and it’s implication on the image.  
 2.	Students discuss their predictions with a partner or group and together will sketch their predictions.
 3.	Instructor will facilitate class discussion one line of code at a time as groups share their predictions and the instructor will reveal what the page truly looks like. The instructor will probe asking students where their predictions fell short.
@@ -146,7 +148,7 @@ The instructor will give all students an html and css file filled with code for 
 In this activity students will build a webpage about their favorite television show. Their resulting webpage will fulfill the requirements listed below. Students will document the decisions they made in the creation of the webpage and rationale for the code they used.
 1.	Use of proper doctype declaration and page structure.
 2.	CSS style sheet correctly linked to index file.
-3.	Inclusion of 10 images using correct image tags.
+3.	Inclusion of 5 images using correct image tags.
 4.	Use of HTML alt attribute in all image tags.
 5.	Use of HTML width and height attributes to manipulate size of at least one image.
 6.	Use of HTML style attribute to manipulate size of at least one image.
