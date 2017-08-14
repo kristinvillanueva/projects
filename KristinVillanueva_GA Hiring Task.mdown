@@ -10,7 +10,7 @@ Students will be able to:
 
 ### Key Points
 1.	HTML images are delineated with the <img> tag along with other attributes and must include the “src” source attribute at the very least to be displayed.
-2.	Common HTML attributes included in <img> tags include src, alt, width and height.
+2.	Common HTML attributes included in `<img>` tags include src, alt, width and height.
 3.	Manipulating style attributes in CSS as an alternative to inline HTML.
 
 ## Content
@@ -43,7 +43,7 @@ The image tag is defined with the `<img>` tag. Within the tag you can first find
 
 Do you notice something strange about the `<img>` tag? Unlike many other tags you’ve learned thus far, the image tag does not have a closing tag. The img and src are the two elements of an image tag that are critical in order to display an image. These are the very bare minimum. Most programmers incorporate a number of other attributes within the tag for greater accuracy. We will learn about these next.
 
-###### **Check for understanding:** 
+#### **Check for understanding:** 
 Which of the following image tags is correct?
 1.	`<image src=”http://static-assets.generalassemb.ly/logos/generalassembly-open-graph.png” />`
 	*	Feedback: Incorrect. Use of `<img>` is the proper image tag.
