@@ -13,7 +13,7 @@ Students will be able to:
 2.	Common HTML attributes included in <img> tags include src, alt, width and height.
 3.	Manipulating style attributes in CSS as an alternative to inline HTML.
 
-## CONTENT
+## Content
 Have you ever visited a website and were stunned at the graphic imagery they used to set the tone of their webpage? Have you ever wondered how they were able to display these images on website? In this lesson, you will learn about how to add images to a webpage! 
 
 By now you’ve learned a number of different HTML tags to add elements to a webpage.  We will add one more tag to your repertoire, the HTML image tag. In this lesson, you will learn about the syntax and various attributes of the image tag and practice using them.
