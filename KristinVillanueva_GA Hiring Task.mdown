@@ -66,7 +66,6 @@ The alt attribute signifies alternative text that will appear if the image canno
 
 You may also run into unforeseen issues if you got your image from an online source and reference it in the `<img>` tag using a link. When you find an image online, you don’t have control over whether your source takes the image down or moves it elsewhere. Both instances result in the link to the image to break and not longer work on your page. This can be avoided by saving images locally or on an online repository where you are in complete control of the status of your images.
 
-*Reference: https://www.w3schools.com/html/html_images.asp*
 
 #### Sizing images with attributes
 **HTML**
@@ -155,3 +154,7 @@ In this activity students will build a webpage about their favorite television s
 7.	Use of CSS to manipulate size of at least one image.
 8.	Supportive text displayed on the webpage to describe each photo.
 9.	Code is clean, error free, and properly formatted in the browser.
+
+**References**
+-*https://www.w3schools.com/html/html_images.asp*
+-*https://guides.github.com/features/mastering-markdown/#syntax*-
