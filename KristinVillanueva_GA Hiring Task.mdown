@@ -24,22 +24,26 @@ By now you’ve learned a number of different HTML tags to add elements to a web
 Examples of HTML image syntax:
 
 `<img src="url" >`
+<br>
 Image tag base template.
 
 `<img src="http://bit.ly/2vxg0PD" >`
+<br>
 Example of the image tag with image hosted online.
 
 `<img src="example.gif" >`
+<br>
 Example of the image tag using an image within the same folder as the index file.
 
 `<img src="/images/example.gif" >`
+<br>
 Example of the image tag using an image with a sub-folder file titled “images”.
 
 The image tag is defined with the `<img>` tag. Within the tag you can first find “img” which signifies that it is an image tag, and an “src” attribute, which defines the location of the image. The src attribute can be a url, or the pathway to a location on your computer. If the image is within the same folder as the index file for your webpage, you don’t need to specify an absolute path to where the image is stored, only the filename for the image is required in the src quotations. However, it is common to store images in a separate sub-folder, in which case specify the location with the sub-folder name and then the image filename.
 
 Do you notice something strange about the `<img>` tag? Unlike many other tags you’ve learned thus far, the image tag does not have a closing tag. The img and src are the two elements of an image tag that are critical in order to display an image. These are the very bare minimum. Most programmers incorporate a number of other attributes within the tag for greater accuracy. We will learn about these next.
 
-###### **CHECK FOR UNDERSTANDING:** 
+###### **Check for understanding:** 
 Which of the following image tags is correct?
 1.	`<image src=”http://static-assets.generalassemb.ly/logos/generalassembly-open-graph.png” />`
 	*	Feedback: Incorrect. Use of `<img>` is the proper image tag.
@@ -55,6 +59,7 @@ Which of the following image tags is correct?
 ### Adding Attributes
 #### The alt attribute
 `<img src="http://bit.ly/2vxg0PD" alt="HTML & CSS Icons" >`
+<br>
 Example of alt attribute within the `<img>` tag.
 
 The alt attribute signifies alternative text that will appear if the image cannot be displayed. It also allows the alt text to display near the mouse cursor when hovering over the image. You might wonder, why wouldn’t my image be displayed? There are a number of reasons for why an image might not display, and it might not have anything to do with the code you’ve written. Sometimes a user’s slow connection, browser preference for not displaying images, or use of a screen reader inhibit them from viewing the image. However, they are still end users and as a designer, wouldn’t you want your users to know what the image was of, even if they aren’t able to view it? Providing alternative text is a good practice and shows that you put thought into your audience. 
@@ -63,24 +68,28 @@ You may also run into unforeseen issues if you got your image from an online sou
 
 #### Sizing images with attributes
 **HTML**
+<br>
 `<img src="url" alt="descriptive text" width="100" height="100">`
+<br>
 Example of using the HTML width and height attributes to manipulate size.
-
+<br>
 `<img src="url" alt="descriptive text" style="width:100px;height:100px;">`
-Example of using the HTML style attribute to manipulate size.
+<br>Example of using the HTML style attribute to manipulate size.
 
 **CSS**
-img {
+<br>
+`img {
   width:128px;
   height:128px
-}
+}`
+<br>
 Example of using a CSS external stylesheet to manipulate size.
 
 Being able to specify a size of an image is vital to creating the website you envision. Though it is good practice to save images in the proper size that will be used on the webpage and in the appropriate format (ex. jpg, png, gif), there are a number of ways to go about specifying size characteristics of your image in your code. 
 
 One way is to add the width and height attributes to the HTML tag to define the width and height of the image in pixels. Pixels are the default value of measurement in HTML. Alternatively, width and height can also be specified using the style attribute. Unlike the width and height attributes, using the style attribute does not restrain your image manipulations to width and height, but also enables you to add other stylistic elements to your image such as a border or image floating. Using a CSS external style sheet can also be used specify image properties including width, height, border, and float. However, if you are concerned with maintaining the original size of images, it is recommended to use the style attribute to prevent the size from being altered by internal or external style sheets.
 
-##### **CHECK FOR UNDERSTANDING:** 
+#### **Check for understanding:** 
 Which of the following TRUE about image tags?
 1.	Using 3rd party images found online is a foolproof way to ensure your links will not break.
 	*	Incorrect. You have no power over the wellbeing of the photo.
@@ -109,7 +118,7 @@ Answer Key
 3.	c
 4.	a
 
-## HANDS ON PRACTICE: 
+## Hands-on practice
 In this activity, students will be using codepen to explore the image tag and it’s attributes. Follow the steps below and reflect on your observations.
 1.	Create an image tag to display the photo that can be found at this url: http://bit.ly/2vxg0PD
 2.	Create a second image tag to display the same photo, this time adding alternative text using the alt attribute. You should now see two identical images. Next, delete the colon in the image url. 
@@ -127,13 +136,13 @@ In this activity, students will be using codepen to explore the image tag and it
 	*	What happened to the fifth image? Why do you think this occurred?
 		-	Feedback: You notice that the image reduced in size. This is because calling the id takes precedent over calling an img tag because it specifies a particular line of code.
 
-## INSTRUCTOR LED ACTIVITY
+## Instructor-led Activity
 The instructor will give all students an html and css file filled with code for a webpage. The HTML code will model proper html structure including proper doctype declaration, head, title, and body tags and closing as tags, and proper linking to CSS stylesheet. The code will include use of multiple image tags with varying attributes inline and using the external style sheet. 
 1.	Students will individually analyze the code and in their own words, describe what the webpage will look like. For each image, they will describe each attribute used and it’s implication on the image.  
 2.	Students discuss their predictions with a partner or group and together will sketch their predictions.
 3.	Instructor will facilitate class discussion one line of code at a time as groups share their predictions and the instructor will reveal what the page truly looks like. The instructor will probe asking students where their predictions fell short.
 
-## SUMMATIVE ACTIVITY
+## Summative Activity
 In this activity students will build a webpage about their favorite television show. Their resulting webpage will fulfill the requirements listed below. Students will document the decisions they made in the creation of the webpage and rationale for the code they used.
 1.	Use of proper doctype declaration and page structure.
 2.	CSS style sheet correctly linked to index file.
