@@ -156,5 +156,7 @@ In this activity students will build a webpage about their favorite television s
 9.	Code is clean, error free, and properly formatted in the browser.
 
 **References**
--*https://www.w3schools.com/html/html_images.asp*
--*https://guides.github.com/features/mastering-markdown/#syntax*-
+<br>
+	- *https://www.w3schools.com/html/html_images.asp*
+<br>
+	- *https://guides.github.com/features/mastering-markdown/#syntax*
